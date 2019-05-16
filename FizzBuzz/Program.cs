@@ -10,6 +10,13 @@ namespace FizzBuzz
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("For loop ");
+            ForLoop First = new ForLoop();
+            First.FirstSolution(100);
+
+            Console.WriteLine("\nRecursive ");
+            Recursive Second = new Recursive();
+            Second.SecondSolution(1);
         }
     }
 }
